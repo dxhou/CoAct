@@ -61,20 +61,21 @@ python3 test_plan.py \
 
 
 ## 💡Framework
-<div style="display: flex; justify-content: center; align-items: center;">
-  <div style="margin-left: 10px;">
-    <img src="pic/global.png" alt="Global Logo" width="400">
-  </div>
-  <div style="margin-right: 10px;">
-    <img src="pic/local.png" alt="Local Logo" width="500">
-  </div>
 
-</div>
+
 
 In this work, we propose the CoAct framework, which transfers hierarchical planning and collaboration patterns from human society to LLM systems. Specifically, our CoAct framework involves two agents:
 
+  <div align="center">
+    <img src="pic/global.png" alt="Global Logo" width="400">
+  </div>
+
 1. **Global Planning Agent**: comprehends the problem scope, formulates macro-level plans, and provides detailed sub-task descriptions to local execution agents, serving as the initial rendition of a global plan.
   
+
+  <div align="center">
+    <img src="pic/local.png" alt="Local Logo" width="400">
+  </div>
 2. **Local Execution Agent**: operates within a multi-tier task execution structure, focusing on the detailed execution and implementation of specific tasks within the global plan.
 
 Experimental results on the WebArena benchmark demonstrate that CoAct can reorganize the process trajectory in the face of failures and achieves superior performance over baseline methods on long-horizon web tasks.
